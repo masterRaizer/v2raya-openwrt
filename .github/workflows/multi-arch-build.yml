@@ -77,7 +77,7 @@ jobs:
             runtime_test: false
           - arch: x86_64
             runtime_test: true
-steps:
+    steps:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 0
